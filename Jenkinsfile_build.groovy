@@ -10,7 +10,7 @@ pipeline {
         stage("stage-2") {
             steps {
                 sh "mvn clean package"
-                sh "echo "small commit 11231sewerw22 1""
+                sh "echo "small commit 1123423423343231sewerw22 1""
             }
         } tar 
     }
