@@ -10,7 +10,8 @@ pipeline {
         stage("stage-2") {
             steps {
                 sh "mvn clean package"
+                sh "echo "small commit""
             }
-        }
+        } tar 
     }
 }
